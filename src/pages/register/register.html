@@ -1,0 +1,42 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation. radiobuton
+-->
+<ion-header>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div text-center class="logo-inicio"> 
+    <img  width="200" height="200" src="../../assets/imgs/user.svg">
+  </div>
+	<ion-list>
+          <form (ngSubmit)="saveForm()">
+            <ion-item>
+              	<ion-input [(ngModel)]="data.nombre" name="nombre" placeholder="Nombre*" type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              	<ion-input [(ngModel)]="data.apellido" name="code" placeholder="Apellido*" type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              	<ion-input [(ngModel)]="data.code" name="apellido" placeholder="Email*" type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              	<ion-input [(ngModel)]="data.edad" name="edad" placeholder="Edad*" type="number"></ion-input>
+            </ion-item>
+            <ion-item>
+              	<ion-input [(ngModel)]="data.area" name="area" placeholder="Area*"  type=""></ion-input>
+            </ion-item>
+            <ion-item>
+              	<ion-input [(ngModel)]="data.nivel" name="nivel" placeholder="Nivel*" type="text"></ion-input>
+            </ion-item>
+            <div text-center>
+              <button ion-button type="submit" block color="dark">Registrar</button>              
+            </div>            
+          </form>
+        </ion-list>
+
+</ion-content>

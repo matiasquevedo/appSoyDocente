@@ -1,14 +1,44 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
+<ion-header color="dark">
+  <ion-navbar color="dark">
+    <ion-title color="dark">
+    	SOY DOCENTE
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="home">
+  <h3 class="color-logo">Educacionales</h3>
+  <p class="color-logo"><b><i>Matemática/Exactas</i></b></p>
+  <ion-item-group>
+  	<ion-item-divider color="dark">Escuelas - Zona Sur</ion-item-divider>
+  	<ion-item>
+    	<div text-center>
+    		<p><i>No hay anuncios</i></p>    		
+    	</div>
+    </ion-item>
+    <ion-item-divider color="dark">Diario Uno</ion-item-divider>
+    <ion-item (click)="mostrar()">
+    	<p><b>Nivel:</b> EGB 1 y 2 <b>Fecha:14/11/2017</b></p>
+    	<p>Comunicado Suplencia La Supervisora Técnica de la Sección N° 49 ofrecerá el día miércoles 15 de Noviembre de 2017 a las 10:00 horas en Inspección Regional Sur, sita en Comandante Salas y Belgrano ,San Rafael, una suplencia de Director-Maestro, cargo vacante con destino a la Escuela N° 1-381 "Salvador Giuffrida" sita en Calle O y 13 KM 884, Bowen, Gral Alvear Mendoza, sin término, con el 40% de bonificación por zona, sin movilidad, en un todo de acuerdo a la reglamentación vigente y hasta la instancia de Maestros Titulares de la Regional. Supervisora: Prof.: Myriam Romero TE: 422078 </p>
+    </ion-item>
+    <ion-item (click)="mostrar()">
+    	<p><b>Nivel:</b> Superior <b>Fecha:16/11/2017</b></p>
+    	<p>La Rectoría del I.E.S. Nº 9-012 “SAN RAFAEL EN INFORMÁTICA”, informa a la comunidad educativa que convoca a ls miembros del claustro docente a la presentación de listas para la renovación del 50% de los miembros del mismo, según el sgte. Cronograma: Publicación del Padrón 06/11/2017 – Reclamos (referidos a inclusión/exclusión) hasta el día 13/11/2017, 21 hs. – Presentación de listas hasta el día 17/11/2017, 21 hs – Impugnaciones hasta el día 20/11/2017, 21 hs – Resolución de impugnaciones hasta el día 23/11/2017, 21 hs – Número y color de lista hasta el día 27/11/2017, 21 hs – Presentación de listas impresas hasta el día 28/11/2017, 21 hs – Acto eleccionario 06/12/2017 de 18:00 hs a 21:00 hs  </p>
+    </ion-item>
+    <ion-item (click)="mostrar()">
+    	<p><b>Nivel:</b> Adultos <b>Fecha:17/11/2017</b></p>
+    	<p>La Dirección del CEBJA 3-018 "josé Ingenieros" Ubicado en Roca y Mitre de General Alvear con el 30% de zona, ofrece el 17/11/17 a las 20:00 hs en 4 llamado, 5hs de Lengua para 1° Año CBS C y 5hs de Lengua para 1° Año CBS D, Turno Noche, Art. 38 Ley 5811, por el término de 10 días. Sin Movilidad </p>
+    </ion-item>
+    <ion-item-divider color="dark">Diario Los Andes</ion-item-divider>
+    <ion-item (click)="mostrar()">
+    	<p><b>Nivel:</b> Secundario <b>Fecha:14/11/2017</b></p>
+    	<p>4-138, 90%, Malargue, Villagra O. 651, Ofrece martes 21/11/2017 en 1° llamado Hora: 9:00 3 hc Formación Ética y Ciudadana 5°1° TM Art 40 sin término fijo. Toma de posesión inmediata. 2° y 3° llamado cada 15 minutos  </p>
+    </ion-item>
+  </ion-item-group>
+  <div text-center>
+  	<button ion-button color="danger"> Publicar Clases Particulares</button> 
+  </div>
+  
 </ion-content>
+
+

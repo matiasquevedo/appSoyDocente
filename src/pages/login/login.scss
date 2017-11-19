@@ -1,0 +1,24 @@
+page-login {
+
+	.my-page .logo-inicio ion-img {
+		color: red;
+	}
+
+	.my-page .buton-border button{
+		color: #20A89B !important;
+		background-color: white !important;
+		border: 5px solid #20A89B !important;
+		box-shadow: 5px 5px 5px #888888;
+		position: relative;
+		top: 5px !important;
+	}
+
+	.my-page .space{
+		color:white !important;
+	}
+
+	.my-page{
+		position: relative;
+		top: 30px !important;
+	}
+}
