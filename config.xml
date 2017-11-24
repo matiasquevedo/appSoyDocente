@@ -2,7 +2,12 @@
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SoyDocente</name>
     <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <author name="GinaBertoldi ?? 400282" >SoyDocenteDEV-TEAM</author>
+    <author name="MarcelaOuviña ?? 33276952" >SoyDocenteDEV-TEAM</author>
+    <author name="LucasRios ?? 40464461" >SoyDocenteDEV-TEAM</author>
+    <author name="NahuelAgilar ?? 36788256" >SoyDocenteDEV-TEAM</author>
+    <author name="MatiasQuevedo ?? 37623415" >SoyDocenteDEV-TEAM</author>
+
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

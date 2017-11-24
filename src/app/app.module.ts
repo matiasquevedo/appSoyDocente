@@ -8,6 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ModalPage } from '../pages/modal/modal';
 import { LoginPage } from '../pages/login/login';
+import { AreaPage } from '../pages/area/area';
+import { NivelPage } from '../pages/nivel/nivel';
 import { RegisterPage } from '../pages/register/register';
 import { IonicStorageModule } from '@ionic/storage';
 
@@ -17,7 +19,9 @@ import { IonicStorageModule } from '@ionic/storage';
     HomePage,
     ModalPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    AreaPage,
+    NivelPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,9 @@ import { IonicStorageModule } from '@ionic/storage';
     HomePage,
     ModalPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    AreaPage,
+    NivelPage
   ],
   providers: [
     StatusBar,

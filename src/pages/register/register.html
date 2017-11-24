@@ -28,10 +28,7 @@
               	<ion-input [(ngModel)]="data.edad" name="edad" placeholder="Edad*" type="number"></ion-input>
             </ion-item>
             <ion-item>
-              	<ion-input [(ngModel)]="data.area" name="area" placeholder="Area*"  type=""></ion-input>
-            </ion-item>
-            <ion-item>
-              	<ion-input [(ngModel)]="data.nivel" name="nivel" placeholder="Nivel*" type="text"></ion-input>
+              	<ion-input [(ngModel)]="data.area" name="area" placeholder="Area*" (click)="verArea()"  type=""></ion-input>
             </ion-item>
             <div text-center>
               <button ion-button type="submit" block color="dark">Registrar</button>              
